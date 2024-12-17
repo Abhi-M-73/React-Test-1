@@ -1,5 +1,5 @@
-/** @type {import('tailwindcss').Config} */
-const config = {
+
+export default {
   content: [
     "./index.html", // Scans the root index file for Tailwind classes
     "./src/**/*.{js,ts,jsx,tsx}", // Includes all JS, TS, JSX, and TSX files in src directory
@@ -14,4 +14,4 @@ const config = {
   ],
 };
 
-export default config;
+
